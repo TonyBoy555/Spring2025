@@ -1,0 +1,96 @@
+/* Anthony Perez */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    padding: 8px 10px;
+    font-size: 1rem;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .results div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .results h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  #addition {
+    border-top: 4px solid #27ae60;
+  }
+  
+  #subtraction {
+    border-top: 4px solid #c0392b;
+  }
+  
+  #multiplication {
+    border-top: 4px solid #f39c12;
+  }
+  
+  #division {
+    border-top: 4px solid #8e44ad;
+  }
+  
+  .results p {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    white-space: pre-line;
+    margin: 0;
+  }
+  
